@@ -1,0 +1,23 @@
+html{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body{
+    height: 100%;
+    width: auto;
+    margin: 0 40px;
+}
+
+input{
+    width: auto;
+    height: auto;
+    margin: 20px;
+}
+
+img{
+    visibility: hidden;
+    position: absolute;
+    max-width: 300px;
+    min-width: 300px;
+}
+

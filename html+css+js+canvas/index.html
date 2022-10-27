@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML+CSS+CANVAS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div id="canvas" class="canvas">
+            <canvas id="colorType" class="colorType" onclick="changeColor('colorType')">Choose color</canvas>
+            <input class="txt" id="txt" type="text" value="10">
+            <div class="buttons">
+                <input type="submit" onclick="getValue()" value="Change size">
+                <input type="submit" onclick="clearCanvas()" value="Clear canvas">
+            </div>
+            <span class="text">Выбери цвет, задай размер квадрата и начни рисовать!</span>
+            <canvas id="example" class="example">Update webpage</canvas>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
